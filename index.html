@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Index</title>
+	</head>
+
+    <body>
+		<div>
+			<!-- Menu -->
+			<header>
+				<nav class="fundo">
+					<div class="nav-wrapper container">
+					<a href="index.html" class="fontsize titulo">Aprendendo <b class="text-red">Ruby</b></a>
+					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+						<ul id="nav-mobile fundo cor-texto" class="right hide-on-med-and-down">
+							<li data-target="sidebar-login" class="sidenav-trigger"><a  class="btn cor-texto">Login</a></li>
+							<li data-target="slide-out" class="sidenav-trigger"><a  class="btn cor-texto">Cadastro</a></li>
+						</ul>
+						<ul class="sidenav fundo cor-texto" id="mobile-demo">
+							<li data-target="sidebar-login" class="sidenav-trigger"><a class="btn cor-texto">Login</a></li>
+							<li data-target="slide-out" class="sidenav-trigger"><a class="btn cor-texto">Cadastro</a></li>
+						</ul>
+					</div>
+
+				</nav>
+			</header>
+			<!-- Sessões -->
+			<main>
+
+		<ul id="sidebar-login" class="sidenav sidenav-login fundo texto cor-texto">
+			<div class="alinhaForm">
+				<p> Seja bem vindo! Insira suas informações abaixo.</p>
+				<p>Se ainda não tiver cadastro, <a href="#" data-target="slide-out" class="sidenav-close sidenav-trigger Cor5-texto txthover">faça o aqui.</a></p>
+				<form class="col s12">
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="email" type="email" class="validate">
+							<label for="email">Email</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="password" type="password" class="validate">
+							<label for="password">Senha</label>
+						</div>
+					</div>
+					<a class="btn" href="home.html">Login</a>
+				</form>
+			</div>
+		</ul>
+		  <ul id="slide-out" class="sidenav sidenav-cadastro fundo texto cor-texto">
+			  <div class="alinhaForm">
+				<p>Registre-se a baixo e faça parte do nosso time!</p>
+				<p>Ou se já tiver cadastro, <a href="#" data-target="sidebar-login" class="sidenav-close sidenav-trigger Cor5-texto txthover">acesse aqui sua conta.</a></p>
+				<div class="row">
+				<form class="col s12">
+				  <div class="row">
+					<div class="input-field col s6">
+					  <input id="first_name" type="text" class="validate">
+					  <label for="first_name">Nome</label>
+					</div>
+					<div class="input-field col s6">
+					  <input id="last_name" type="text" class="validate">
+					  <label for="last_name">Sobrenome</label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="input-field col s12">
+					  <input id="email" type="email" class="validate">
+					  <label for="email">Email</label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="input-field col s12">
+					  <input id="password" type="password" class="validate">
+					  <label for="password">Senha</label>
+					</div>
+				  </div>
+				  <a class="btn" href="home.html">Cadastrar</a>
+				</form>
+				</div>
+			  </div>
+		  </ul>
+
+
+		<div class="container-fluid">
+			<div class="parallax-container">
+			  <div class="parallax">
+			  <img class="responsive-img" src="img/img1.png">
+			  </div>
+			</div>
+			<div class="section fundo cor-texto">
+				<div class="container">
+					<h2 class="titulo card-panel transparent z-depth-3 centerTxt">Divirta-se <b class="text-red">aprendendo</b></h2>
+					<p class="text-black card-panel transparent z-depth-3 texto">Devido à grande dificuldade que muitos encontram ao estudar algoritmos e lógica de programação. Em grande parte, o conteúdo de ensino acaba sendo maçante e assustador para um público que nunca teve contato com este assunto antes, principalmente pessoas mais novas. E se de alguma forma isso fosse mais fácil ou intuitivo? Ou até mesmo, divertido? </p>
+				</div>
+			</div>
+			
+			<div class="parallax-container">
+			  <div class="parallax"><img class="responsive-img" src="img/img2.png"></div>
+			</div>
+			<div class="section fundo cor-texto">
+			  <div class="container">
+				<h2 class="card-panel transparent z-depth-3   centerTxt titulo">Nossos principais jogos</h2>
+					  <div class="row" style="text-align:center">
+						<div class="col s6 m4 l3">
+						  <div class="card">
+							<div class="card-image">
+							  <img src="img/blockrain.png">
+							</div>
+							<div class="card-content Cor1 titulo">
+							  <p>BlockRain</p>
+							</div>
+						  </div>
+						</div>
+												
+						<div class="col s6 m4 l3">
+						  <div class="card">
+							<div class="card-image">
+							  <img src="img/default.png">
+							</div>
+							<div class="card-content Cor1 titulo">
+							  <p>Em breve!</p>
+							</div>
+						  </div>
+						</div>
+						
+						<div class="col s6 m4 l3">
+						  <div class="card">
+							<div class="card-image">
+							  <img src="img/default.png">
+							</div>
+							<div class="card-content Cor1 titulo">
+							  <p>Em breve!</p>
+							</div>
+						  </div>
+						</div>
+						
+												<div class="col s6 m4 l3">
+						  <div class="card">
+							<div class="card-image">
+							  <img src="img/default.png">
+							</div>
+							<div class="card-content Cor1 titulo">
+							  <p>Em breve!</p>
+							</div>
+						  </div>
+						</div>
+					  </div>
+			  </div>
+			</div>
+			<div class="parallax-container">
+			  <div class="parallax"><img class="responsive-img" src="img/img3.png"></div>
+			</div>
+			
+			<div class="section fundo">
+			  <div class="container cor-texto">
+				<h2 class="card-panel transparent centerTxt titulo">Sobre nós</h2>
+				<p class="card-panel transparent texto">Nosso principal foco não é substituir as escolas e os professores. Muito pelo contrário!<br>Nosso objetivo é potencializar o ensino, servindo como um reforço que geralmente é muito necessário.
+				Seja você um adolescente que quer aprender mais, um pai que quer ensinar algo divertido a seus filhos ou até mesmo um professor que quer reforçar o ensino a seus alunos, juntem-se a nós!</p>
+			  </div>
+			</div>
+			<div class="parallax-container">
+			  <div class="parallax"><img class="responsive-img" src="img/img4.png"></div>
+			</div>
+			</div>
+			</main>
+		<footer class="page-footer fundo cor-texto">
+				<p class="centerTxt texto"> &copy; 2019 - FATEC RUBENS LARA - Aprendendo Ruby</p>
+        </footer>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-3.4.0.js"></script>
+		<script type="text/javascript" src="js/materialize.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+    </body>
+  </html>

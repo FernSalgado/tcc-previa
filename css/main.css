@@ -1,0 +1,16 @@
+body {display: flex;min-height: 100vh;flex-direction: column;}
+.alinhaForm{padding:30px;}
+.texto{font-family:'Roboto Slab', serif;}
+.titulo {font-family: 'Russo One', sans-serif;}
+.game{width:300px;height:500px;}
+.fontsize{font-size:2em;}
+.txthover:hover{color:#26a69a;}
+.centerTxt{text-align:center;}
+.btncolor{background-color:#f15e75;}  
+.fundo{background-color:#D9665B;}
+.cards{background-color:#D9AF8B;}
+.cor-texto {color:#090d26!important;}
+.rating {unicode-bidi: bidi-override;direction: rtl;text-align: center;font-size: 2em;}
+.rating > span {display: inline-block;position: relative;width: 1em;}
+.rating > span:hover,.rating > span:hover ~ span {color: transparent;}
+.rating > span:hover:before,.rating > span:hover ~ span:before {content: "\2605";position: absolute;left: 0;color: #F25D50;}
